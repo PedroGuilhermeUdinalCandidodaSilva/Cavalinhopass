@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    text-decoration: none;
+    color: white;
+  }
+
+.Logo{
+    color: gold;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 1em;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  .catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .jogo-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .jogo-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .jogo-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .jogo-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .jogo-card p {
+    padding: 0 10px 20px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
